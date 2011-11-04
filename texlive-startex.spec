@@ -62,6 +62,7 @@ LaTeX.
 %doc %{_texmfdistdir}/source/startex/base/startex.bib
 %doc %{_texmfdistdir}/source/startex/base/startex.dtx
 %doc %{_texmfdistdir}/source/startex/base/startex.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,3 +73,5 @@ LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
