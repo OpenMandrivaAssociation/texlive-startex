@@ -6,7 +6,7 @@
 # catalog-version 1.04
 Name:		texlive-startex
 Version:	1.04
-Release:	4
+Release:	5
 Summary:	An XML-inspired format for student use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/startex
