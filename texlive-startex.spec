@@ -1,6 +1,6 @@
 Name:		texlive-startex
 Version:	35718
-Release:	1
+Release:	2
 Summary:	An XML-inspired format for student use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/startex
