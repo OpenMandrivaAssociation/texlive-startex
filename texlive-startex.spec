@@ -3,7 +3,7 @@ Version:	69742
 Release:	1
 Summary:	An XML-inspired format for student use
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/startex
+URL:		https://www.ctan.org/tex-archive/macros/startex
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/startex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/startex.doc.r%{version}.tar.xz
